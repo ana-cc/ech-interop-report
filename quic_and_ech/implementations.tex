@@ -7,35 +7,35 @@ ECH support was determined from analysing the source code for these implementati
 \begin{table}[ht]
 \centering
 \begin{tabular}{l|l|l|l}
-QUIC Impl. &  TLS Library & Developer & ECH Support  \\
+QUIC Impl. &  QUIC Developer & TLS Library  & ECH Support  \\
 \hline \hline
-\color{red}{\texttt{mvfst}} &  fizz & Facebook & \color{red}{Yes} \\
+\color{red}{\texttt{mvfst}} & Facebook &  fizz  & \color{red}{Yes} \\
 \hline
-\color{red}{\texttt{neqo}}  & NSS & Mozilla & \color{red}{Yes} \\
+\color{red}{\texttt{neqo}} & Mozilla & NSS  & \color{red}{Yes} \\
 \hline
-\color{red}{\texttt{chrome}} & BoringSSL & Google & \color{red}{Yes} \\
+\color{red}{\texttt{chrome}} & Google & BoringSSL  & \color{red}{Yes} \\
 \hline
-\texttt{quiche}   & BoringSSL & Cloudflare & No \\
+\texttt{quiche}  & Cloudflare & BoringSSL & No \\
 \hline
-\texttt{msquic}   & OpenSSL & Microsoft & No \\
+\texttt{msquic}  & Microsoft  & OpenSSL & No \\
 \hline
-\texttt{xquic}   & BoringSSL, BabaSSL& Alibaba & No \\
+\texttt{xquic}  & Alibaba & BoringSSL, BabaSSL & No \\
 \hline
-\texttt{s2n-quic}   & rustls, s2n-tls & AWS & No \\
+\texttt{s2n-quic}  & AWS  & rustls, s2n-tls & No \\
 \hline
-\texttt{lsquic}   & BoringSSL & LiteSpeed & No \\
+\texttt{lsquic} & LiteSpeed  & BoringSSL &  No \\
 \hline
-\color{red}{\texttt{ngtcp2}}    & BoringSSL & T. Tsujikawa & \color{red}{Yes}  \\
+\color{red}{\texttt{ngtcp2}} & T. Tsujikawa  & BoringSSL &  \color{red}{Yes}  \\
 \hline
-\texttt{picoquic} & OpenSSL & C. Huitema & No  \\
+\texttt{picoquic} & C. Huitema  & OpenSSL & No  \\
 \hline
-\texttt{quic-go}  & Go Std. Lib.& M. Seemann& No  \\
+\texttt{quic-go} & M. Seemann & Go Std. Lib.& No  \\
 \hline
-\texttt{kwik} & Agent15 & P. Doornbosch& No \\
+\texttt{kwik} & P. Doornbosch & Agent15 & No \\
 \hline
-\texttt{aioquic}   & OpenSSL & J. Lainé & No  \\
+\texttt{aioquic} & J. Lainé   & OpenSSL & No  \\
 \hline
-\texttt{quinn}   & rustls & D. Ochtman, B.Saunders & No  \\
+\texttt{quinn}  & D. Ochtman, B.Saunders & rustls  & No  \\
 
 \end{tabular}
 \caption{ECH Support across QUIC implementations}
